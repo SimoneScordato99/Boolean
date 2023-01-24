@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.sfondo {
+    background-image: url(img/background.jpg);
+    width: 1800px;
+    height: 1000px;
+    background-size: cover ;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;  
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+    border-radius: 20px;   
+}
+#dimensioni {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* -----------------header------------------ */
+header {   
+    text-align: center;   
+    height: 200px;
+    display: block; 
+}
+.container-logo {
+    height: 150px;
+}
+.logo {
+    max-width: 300px;
+    max-height: 100px;
+    padding-top: 40px;   
+}
+#titolo {
+    color: rgb(43, 255, 0);
+    margin: 0;
+}
+
+
+/* ------------nav---------- */
+.imput-nav {
+    height: 30px;
+    background-color: rgb(43, 255, 0);
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+#buttons {
+    margin-top: 0px;
+}
+
+
+/* --------------main------------ */
+main>div {
+    color: white;
+}
+.container-monopattino>div {
+    margin: 5px 0;   
+}
+p {
+    margin: 0;
+}
+.monopattino {
+    font-size: 20px;   
+}
+
+
+/* ----------barra di stato------------- */
+.charge-bar {
+    height: 20px;
+    border-radius: 5px;
+}   
+.charge-bar#yellow {
+    background-color: yellow;
+    width: 300px;
+}
+.charge-bar#green {
+    background-color: rgb(51, 255, 0);
+    width: 600px;
+}
+.charge-bar#red {
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+}
